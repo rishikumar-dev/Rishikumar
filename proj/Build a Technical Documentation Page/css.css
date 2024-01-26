@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #00a859; /* Dabur green */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .nav-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #00a859; /* Dabur green */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #007947; /* Dabur darker green on hover */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #00a859; /* Dabur green */
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  code {
+    background-color: #f5f5f5;
+    padding: 2px 5px;
+    font-family: monospace;
+  }

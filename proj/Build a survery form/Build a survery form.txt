@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey Form</title>
+</head>
+<body>
+
+  <h1 id="title">Survey Form</h1>
+
+  <p id="description">Please fill out the survey below:</p>
+
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label for="number" id="number-label">Number:</label>
+    <input type="number" id="number" name="number" placeholder="Enter a number" min="1" max="100" required>
+
+    <label for="dropdown">Select an option:</label>
+    <select id="dropdown">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+    </select>
+
+    <label id="radio-label">Choose an option:</label>
+    <input type="radio" id="radio1" name="radio-group" value="radio1">
+    <label for="radio1">Option 1</label>
+    <input type="radio" id="radio2" name="radio-group" value="radio2">
+    <label for="radio2">Option 2</label>
+
+    <label id="checkbox-label">Select multiple options:</label>
+    <input type="checkbox" id="checkbox1" name="checkbox-group" value="checkbox1">
+    <label for="checkbox1">Option 1</label>
+    <input type="checkbox" id="checkbox2" name="checkbox-group" value="checkbox2">
+    <label for="checkbox2">Option 2</label>
+
+    <label for="comments">Additional comments:</label>
+    <textarea id="comments" name="comments" placeholder="Enter your comments"></textarea>
+
+    <button type="submit" id="submit">Submit</button>
+  </form>
+
+</body>
+</html>
+ 
+
+CSS
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#img-div {
+  margin-top: 20px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#img-caption {
+  margin-top: 10px;
+  color: #666;
+}
+
+#tribute-info {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#tribute-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}

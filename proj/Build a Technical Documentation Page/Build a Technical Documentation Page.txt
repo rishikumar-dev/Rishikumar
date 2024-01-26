@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Your Technical Documentation</title>
+</head>
+<body>
+
+  <nav id="navbar">
+    <header>Technical Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+    <a class="nav-link" href="#HTML_and_HTML5">HTML and HTML5</a>
+    <a class="nav-link" href="#CSS">CSS</a>
+    <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Welcome to the Technical Documentation! This section provides an overview of the documentation.</p>
+      <p>Technical documentation is a crucial part of software development...</p>
+      <!-- Add more paragraphs, code snippets, and list items as needed -->
+      <p>Additional content 1</p>
+      <p>Additional content 2</p>
+      <p>Additional content 3</p>
+      <p>Additional content 4</p>
+      <p>Additional content 5</p>
+    </section>
+
+    <section class="main-section" id="JavaScript_and_Java">
+      <header>JavaScript and Java</header>
+      <p>JavaScript and Java are powerful programming languages used for web development...</p>
+      <code>// Example code snippet 1</code>
+      <code>// Example code snippet 2</code>
+      <code>// Example code snippet 3</code>
+      <code>// Example code snippet 4</code>
+      <code>// Example code snippet 5</code>
+      <ul>
+        <li>JavaScript fundamentals</li>
+        <li>Java syntax</li>
+        <!-- Add more list items as needed -->
+      </ul>
+    </section>
+
+    <!-- Add more sections with content as needed -->
+    <section class="main-section" id="HTML_and_HTML5">
+      <header>HTML and HTML5</header>
+      <p>Learn about the structure and evolution of HTML...</p>
+      <code>// Example code snippet A</code>
+      <code>// Example code snippet B</code>
+      <ul>
+        <li>HTML basics</li>
+        <li>HTML5 features</li>
+        <!-- Add more list items and code snippets as needed -->
+      </ul>
+    </section>
+
+    <section class="main-section" id="CSS">
+      <header>CSS</header>
+      <p>Explore the styling capabilities of CSS...</p>
+      <code>// Example code snippet X</code>
+      <code>// Example code snippet Y</code>
+      <ul>
+        <li>CSS selectors</li>
+        <li>Box model</li>
+        <!-- Add more list items and code snippets as needed -->
+      </ul>
+    </section>
+
+    <section class="main-section" id="Responsive_Design">
+      <header>Responsive Design</header>
+      <p>Understand the importance of responsive design in modern web development...</p>
+      <code>// Example code snippet M</code>
+      <code>// Example code snippet N</code>
+      <ul>
+        <li>Media queries</li>
+        <li>Flexbox and Grid</li>
+        <!-- Add more list items and code snippets as needed -->
+      </ul>
+    </section>
+
+  </main>
+
+</body>
+</html>
+
+
+CSS
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 200px;
+  overflow-y: auto;
+}
+
+#navbar header {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #555;
+}
+
+#main-doc {
+  margin-left: 200px; /* Adjust the margin based on navbar width */
+  padding: 20px;
+}
+
+.main-section {
+  margin-bottom: 40px;
+}
+
+header {
+  font-size: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
+
+

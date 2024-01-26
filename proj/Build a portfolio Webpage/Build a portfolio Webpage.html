@@ -1,0 +1,126 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">Welcome</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section id="welcome-section">
+        <h1>Welcome to My Portfolio</h1>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="project-tile">
+            <h2>Project 1</h2>
+            <p>Description of Project 1.</p>
+            <a href="#project1-link">Project 1 Link</a>
+        </div>
+        <!-- Add more project-tile elements as needed -->
+    </section>
+
+    <!-- Profile Link -->
+    <a id="profile-link" href="https://github.com/yourusername" target="_blank">Visit My GitHub</a>
+
+</body>
+</html>
+CSS
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body, html {
+			margin: 0;
+			padding: 0;
+		}
+
+		#welcome-section {
+			height: 100vh;
+			background-color: lightblue;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		#welcome-section h1 {
+			text-align: center;
+		}
+
+		#projects {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			padding: 20px;
+		}
+
+		.project-tile {
+			background-color: lightgrey;
+			width: 300px;
+			height: 200px;
+			margin: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-decoration: none;
+			color: black;
+		}
+
+		#navbar {
+			position: fixed;
+			top: 0;
+			width: 100%;
+			background-color: darkgray;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+
+		#profile-link {
+			background-color: lightgrey;
+			padding: 10px;
+			text-decoration: none;
+			color: black;
+		}
+
+		@media (max-width: 600px) {
+			#projects .project-tile {
+				width: 45%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="welcome-section">
+		<h1>Welcome to my Portfolio!</h1>
+	</div>
+
+	<nav id="navbar">
+		<a href="#welcome-section">Home</a>
+		<a href="#projects">Projects</a>
+		<a href="#contact">Contact</a>
+	</nav>
+
+	<div id="projects">
+		<a href="https://example.com/project1" class="project-tile">Project 1</a>
+		<a href="https://example.com/project2" class="project-tile">Project 2</a>
+		<a href="https://example.com/project3" class="project-tile">Project 3</a>
+	</div>
+
+	<a id="profile-link" href="https://github.com/yourusername" target="_blank">My GitHub Profile</a>
+</body>
+</html>
